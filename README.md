@@ -94,3 +94,5 @@ Special Thanks To:
 
 All our sponsors!  
 [![Sponsor Image](https://raw.githubusercontent.com/PaperMC/papermc.io/data/sponsors.png)](https://papermc.io/sponsors)
+
+boom!
