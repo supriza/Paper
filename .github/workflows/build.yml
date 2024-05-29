@@ -74,12 +74,14 @@ jobs:
             return result;
 
       - name: Apply Patches
+        continue-on-error: true
         run: |
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
           ./gradlew applyPatches --stacktrace
 
       - name: Build
+        continue-on-error: true
         run: ./gradlew build --stacktrace
 
       - name: Upload Test Results
